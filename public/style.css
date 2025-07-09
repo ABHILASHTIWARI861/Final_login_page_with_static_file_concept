@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #38268b, #124255);
+}
+
+.container{
+ /  background: linear-gradient(to right, #298b26, #124255);
+ background-color: #fff;  
+ height: 100%;
+    max-height: 560px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 40px;
+    border: 0px solid #000;
+}
+h1{
+    text-align: center;;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #131010;
+}
+.mail label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#555;
+}
+
+.mail input{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.mail input:focus,
+.password input:focus {
+    border: 2px solid rgb(10, 9, 9);
+    outline: none; 
+    box-shadow: 0 0 5px blueviolet;
+}
+
+.password label{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+.password input{
+   width: 100%;
+   margin-bottom: 25px;
+   margin-top: 15px;
+   font-size: 16px;
+   padding: 10px;
+   border-radius: 6px;
+   border: 1px solid #000;
+}
+button{
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #2575fc;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+.image img{
+    height: 122px;
+    width: 190px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.anchor a{
+    text-decoration: none;
+    color:#2575fc;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anchor a:hover{
+    text-decoration: underline;
+    color: rgb(105, 11, 26);
+}
+button:hover{
+    background-color: #1a5ed0;
+    color: white;
+    cursor: pointer;    
+}
+.anchor{
+    margin: 20px;
+}
